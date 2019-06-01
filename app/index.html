@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>GreenSock Site Test | Home</title>
+</head>
+
+<body>
+    
+    
+
+
+<header>
+    <a href="#" class="logo">Simons</a>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<div class="home wrapper">
+    <section class="hero">
+        <div class="hero__inner inner">
+            <div class="hero__clipper clipper">
+                <h1>Go Musician</h1>
+            </div>
+            <div class="hero__anim-panel anim-panel">
+                <p>
+                    Start touring all over the place and melting the hearts of chicks.
+                </p>
+                <a href="#" class="read-btn primary">Get Famous</a>
+            </div>
+        </div>
+    </section>
+    <section class="sidebar">
+        <div class="sidebar__inner inner">
+            <div class="sidebar__clipper clipper">
+                <h2>Featured</h2>
+            </div>
+            <div class="sidebar__anim-panel anim-panel">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe blanditiis vel alias ea dolor molestias voluptates, tempore eos quibusdam minima nobis doloremque eius unde magnam quia iste ullam at, reprehenderit soluta deserunt. At soluta consequatur eius dicta, officia aut! Optio.
+                </p>
+                <a href="#" class="read-btn">Read More</a>
+            </div>
+        </div>
+    </section>
+    <section class="subscribe">
+        <div class="subscribe__inner inner">
+            <div class="subscribe__clipper clipper">
+                <h2>Subscribe</h2>
+            </div>
+            <div class="subscribe__anim-panel anim-panel">
+                <p>Get the latest updates about this website and stuff.</p>
+                <input type="text" name="email" placeholder="Email Addreess">
+                <button class="subscribe__cta cta">Subscribe</button>
+            </div>
+        </div>
+    </section>
+</div>
+
+</body>
+
+<script data-main="js/config.js" src="js/vendor/require.js"></script>
+
+<script>
+    requirejs(['app'], function(app){
+        app.playAnimation();
+    }); 
+</script>
+</html>

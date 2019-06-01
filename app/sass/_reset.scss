@@ -1,0 +1,11 @@
+@import 'typography';
+*{
+    box-sizing: border-box;
+}
+body, html{
+    margin:0;
+}
+body{
+    height:100%;
+    font-family: $font-stack-1;
+}
